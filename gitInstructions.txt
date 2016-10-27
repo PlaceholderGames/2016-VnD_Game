@@ -1,7 +1,10 @@
 Steps:
 
-1. Clone the repo to your machine
-2. set your user name and email for git like Mike explained on github
+1. Clone the repo to your machine - create a project folder that can be accessed easily
+2. inside that directory do "git init"
+3. link local to remote by "git remote add origin https://github.com/PlaceholderGames/VnD_Game.git"
+4. do "git pull origin master"
+5. set your user name and email for git like Mike explained
 	a. set up your user name before commiting with
 	===> git config --global user.name "Your Name"
 
