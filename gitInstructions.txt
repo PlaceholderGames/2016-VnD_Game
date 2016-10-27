@@ -1,0 +1,53 @@
+Steps:
+
+1. Clone the repo to your machine
+2. set your user name and email for git like Mike explained on github
+	a. set up your user name before commiting with
+	===> git config --global user.name "Your Name"
+
+	b. set up your user email before commiting with
+	===> git config --global user.email "Your student email"
+
+
+IMPORTANT!!!
+- before pushing/pulling make sure you save your project and close the Unreal Engine Application,
+otherwise there mide be side effects
+
+
+After cloning
+
+1. create a branch "git checkout -b myBranchName" (this will create and checkout branch called
+'myBranchName')
+
+2. make necessary modifications (if you have done anything until now in UE4 recreate these
+modifications again in newly cloned project while being on the appropriate branch)
+
+3. check your status with "git status"
+
+4. add any modified/created/deleted files to the staging are by "git add ." or of that doesn't
+work use "git add --all" or "git add *" (this will add all red files to the staging area. If you
+do "git status" now those files should be green)
+
+5. commit the files from the staging area by
+===> git commit -m "Some descriptive message about what this commit contains/does"
+(this will commit your changes with a meaningful message)
+
+6. the commit needs to be pushed to the remote repo. If this is first commit for this branch, the
+branch most likely won't be present on the remote. In this case you need to use command
+"git push -u origin myBranchName" (this will create the branch on the remote and set up it's tracking).
+After the initial commit has been pushed for this branch you can use "git push" from now on (but
+only for THIS branch)
+
+
+
+Notes:
+
+Files seem to be very well organized inside the folder structure. This means that if you know you
+have been working on specific blueprint(s) and for some reason you have a level file that is modified,
+you can probably ignore that modification and push only the relevant blueprint files. Off course,
+be sure that the modifications you have made to that level aren't relevant to your commit!
+
+
+
+
+Written by Bojan Stankovic, updates will follow...
