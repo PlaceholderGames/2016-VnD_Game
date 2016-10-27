@@ -1,10 +1,21 @@
 Steps:
 
 1. Clone the repo to your machine - create a project folder that can be accessed easily
-2. inside that directory do "git init"
-3. link local to remote by "git remote add origin https://github.com/PlaceholderGames/VnD_Game.git"
-4. do "git pull origin master"
-5. set your user name and email for git like Mike explained
+
+For the following step now you have two options. First option (2a & 3a) worked for Elliot since there were no
+other branches except master when he cloned it. Since he created a new branch rest of us will most
+likely need to use second option (2b & 3b)
+
+2a. inside that directory do "git init"
+3a. link local to remote by "git remote add origin https://github.com/PlaceholderGames/VnD_Game.git",
+then do "git pull origin master"
+
+2b. clone the repo using "git clone https://github.com/PlaceholderGames/VnD_Game.git ." (the dot at the end is
+important if you want to clone to your current directory without having git create a sub-directory for you)
+3b. checkout the desired branch if needed (by default you'll be on 'master' branch) by "git checkout branch_name"
+and see if you have what you would expect to have
+
+4. set your user name and email for git like Mike explained
 	a. set up your user name before commiting with
 	===> git config --global user.name "Your Name"
 
