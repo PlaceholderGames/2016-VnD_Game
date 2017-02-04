@@ -62,6 +62,12 @@ you can probably ignore that modification and push only the relevant blueprint f
 be sure that the modifications you have made to that level aren't relevant to your commit!
 
 
+I noticed that some students didn't quite get the purpose of git and its branches. Try to think of the repository
+as the posibility to do 'undo' function all the way back to when the project was first created. Of course, this is
+not completely true because you won't have access to all of the changes, but you do have access to any changes done
+when you did your commit. Think of commits as pointers to some change that was uploaded to github. Think of branches
+as arrays of commits where you can access each one if you require so and retrive the state of the project at that
+point in time.
 
 
 Written by Bojan Stankovic, updates will follow...
