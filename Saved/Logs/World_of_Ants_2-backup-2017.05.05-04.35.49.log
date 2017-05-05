@@ -1,0 +1,621 @@
+﻿Log file open, 05/05/17 03:03:09
+LogInit:Display: Running engine for game: World_of_Ants
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-14996559) SRandInit(-14996559).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092240
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.05-02.03.10:115][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-02.03.10:115][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.05-02.03.10:121][  0]LogInit: Computer: DESKTOP-NQAQ3LP
+[2017.05.05-02.03.10:121][  0]LogInit: User: thebb
+[2017.05.05-02.03.10:121][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.05-02.03.10:121][  0]LogInit: High frequency timer resolution =2.338445 MHz
+[2017.05.05-02.03.10:121][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.05.05-02.03.10:121][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-02.03.10:121][  0]LogMemory: Process Physical Memory: 254.36 MB used, 254.36 MB peak
+[2017.05.05-02.03.10:121][  0]LogMemory: Process Virtual Memory: 259.75 MB used, 259.75 MB peak
+[2017.05.05-02.03.10:121][  0]LogMemory: Physical Memory: 5973.67 MB used, 12163.27 MB total
+[2017.05.05-02.03.10:121][  0]LogMemory: Virtual Memory: 621.57 MB used, 134217728.00 MB total
+[2017.05.05-02.03.10:158][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.05.05-02.03.10:969][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.05-02.03.10:993][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.05-02.03.10:993][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.05-02.03.10:996][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.05-02.03.10:997][  0]LogD3D11RHI:       0/0/6081 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.05-02.03.10:997][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.05-02.03.11:007][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.05-02.03.11:007][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.05-02.03.11:007][  0]LogWindows: EnumDisplayDevices:
+[2017.05.05-02.03.11:008][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.05.05-02.03.11:008][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.05-02.03.11:009][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.05-02.03.11:009][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.05-02.03.11:009][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2017.05.05-02.03.11:009][  0]LogD3D11RHI:   Driver Version: 10.18.10.4425 (internal:10.18.10.4425, unified:10.18.10.4425)
+[2017.05.05-02.03.11:009][  0]LogD3D11RHI:      Driver Date: 4-4-2016
+[2017.05.05-02.03.11:009][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2017.05.05-02.03.11:014][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.05-02.03.11:030][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.05-02.03.11:031][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/thebb/Desktop/Camera/Intermediate/Shaders/WorkingDirectory/7540/).
+[2017.05.05-02.03.11:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thebb/AppData/Local/Temp/UnrealShaderWorkingDir/B397829A40B90A1501A31F9129658E93/'.
+[2017.05.05-02.03.11:032][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.05-02.03.13:306][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.05-02.03.13:319][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.05-02.03.13:345][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.05-02.03.13:361][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.05-02.03.13:361][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.05-02.03.13:503][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.05-02.03.13:651][  0]LogDerivedDataCache: Loaded boot cache 0.15s 63MB C:/Users/thebb/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.05-02.03.13:651][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/thebb/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.05-02.03.13:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/thebb/Desktop/Camera/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.05-02.03.13:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.05-02.03.13:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/thebb/Desktop/Camera/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.05-02.03.13:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.05-02.03.13:688][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.05-02.03.13:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thebb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.05-02.03.14:106][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.05.05-02.03.14:113][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.007352 seconds
+[2017.05.05-02.03.14:155][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-02.03.14:158][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.05.05-02.03.14:329][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.05-02.03.14:329][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.05-02.03.14:329][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.05-02.03.14:439][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.05-02.03.15:025][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: world_of_ants, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 303198595
+[2017.05.05-02.03.15:065][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.05-02.03.15:364][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-02.03.15:364][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-02.03.15:491][  0]LogMoviePlayer: Initializing movie player
+[2017.05.05-02.03.15:582][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/thebb/Desktop/Camera/Content/Movies/Default_Startup.mp4
+[2017.05.05-02.03.15:718][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.05.05-02.03.15:732][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.05-02.03.15:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.05-02.03.15:842][  0]SourceControl: Info Source control is disabled
+[2017.05.05-02.03.15:842][  0]SourceControl: Info Source control is disabled
+[2017.05.05-02.03.15:863][  0]SourceControl: Info Source control is disabled
+[2017.05.05-02.03.16:114][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
+[2017.05.05-02.03.16:114][  0]LogUObjectAllocator: 7270504 out of 0 bytes used by permanent object pool.
+[2017.05.05-02.03.16:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.05-02.03.16:209][  0]LogEngine: Initializing Engine...
+[2017.05.05-02.03.16:210][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.05-02.03.16:465][  0]LogInit: XAudio2 using 'Speakers (IDT High Definition Audio CODEC)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.05-02.03.16:478][  0]LogInit: FAudioDevice initialized.
+[2017.05.05-02.03.16:488][  0]LogInit: Texture streaming: Enabled
+[2017.05.05-02.03.16:674][  0]LogInit:Display: Game Engine Initialized.
+[2017.05.05-02.03.16:739][  0]LogInit:Display: Starting Game.
+[2017.05.05-02.03.16:739][  0]LogNet: Browse: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2017.05.05-02.03.16:739][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2017.05.05-02.03.16:796][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-02.03.16:796][  0]LogMemory: Process Physical Memory: 757.12 MB used, 766.47 MB peak
+[2017.05.05-02.03.16:796][  0]LogMemory: Process Virtual Memory: 730.95 MB used, 787.13 MB peak
+[2017.05.05-02.03.16:796][  0]LogMemory: Physical Memory: 6435.71 MB used, 12163.27 MB total
+[2017.05.05-02.03.16:796][  0]LogMemory: Virtual Memory: 1338.56 MB used, 134217728.00 MB total
+[2017.05.05-02.03.16:796][  0]LogMemory: 
+[2017.05.05-02.03.16:796][  0]Allocator Stats for TBB: (not implemented)
+[2017.05.05-02.03.20:126][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.05-02.03.20:126][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.05.05-02.03.20:382][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.05-03.03.20
+[2017.05.05-02.03.20:387][  0]LogWorld: Bringing up level for play took: 0.260055
+[2017.05.05-02.03.20:389][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-02.03.20:389][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-02.03.20:389][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-02.03.20:394][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-02.03.20:394][  0]LogLoad: Took 3.654942 seconds to LoadMap(/Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap)
+[2017.05.05-02.03.20:618][  0]LogLoad: (Engine Initialization) Total time: 12.30 seconds
+[2017.05.05-02.03.20:618][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
+[2017.05.05-02.03.20:618][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.05-02.03.20:618][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.05-02.03.20:635][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-02.03.20:635][  0]LogOcInput: OculusInput pre-init called
+[2017.05.05-02.03.20:785][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.05.05-02.03.21:465][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.05.05-02.03.21:467][  1]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.21:467][  1]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.21:468][  1]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.21:468][  1]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:338][  2]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:338][  2]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:338][  2]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:338][  2]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:397][  3]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:397][  3]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:397][  3]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:397][  3]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:473][  4]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:473][  4]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:473][  4]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:473][  4]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:548][  5]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:548][  5]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:548][  5]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:548][  5]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:624][  6]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:624][  6]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:624][  6]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:624][  6]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:694][  7]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:694][  7]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:694][  7]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:694][  7]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:778][  8]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:778][  8]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:778][  8]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:778][  8]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:855][  9]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:855][  9]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:855][  9]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:855][  9]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:940][ 10]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:940][ 10]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.22:940][ 10]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.22:940][ 10]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:017][ 11]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:017][ 11]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:017][ 11]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:017][ 11]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:096][ 12]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:096][ 12]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:096][ 12]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:096][ 12]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:176][ 13]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:176][ 13]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:176][ 13]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:176][ 13]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:259][ 14]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:259][ 14]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:260][ 14]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:260][ 14]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:341][ 15]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:341][ 15]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:341][ 15]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:341][ 15]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:425][ 16]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:425][ 16]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:425][ 16]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:425][ 16]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:513][ 17]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:513][ 17]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:513][ 17]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsAI_Ant2
+	Player_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Player_104
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player:1AAF
+[2017.05.05-02.03.23:513][ 17]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ReceiveTick
+	Function /Game/ThirdPersonBP/Blueprints/Player.Player_C:ExecuteUbergraph_Player
+
+[2017.05.05-02.03.23:626][ 18]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.05-02.03.23:626][ 18]LogScriptCore:Warning: 
+[2017.05.05-02.03.25:563][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.05-02.03.25:563][ 40]LogScriptCore:Warning: 
+[2017.05.05-02.03.27:650][ 62]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.05-02.03.27:650][ 62]LogScriptCore:Warning: 
+[2017.05.05-02.03.29:568][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.05-02.03.29:568][ 83]LogScriptCore:Warning: 
+[2017.05.05-02.03.31:576][106]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.05-02.03.31:576][106]LogScriptCore:Warning: 
+[2017.05.05-02.03.39:390][194]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-02.03.39:395][194]LogEngine: All Windows Closed
+[2017.05.05-02.03.39:395][194]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.05.05-02.03.39:396][195]LogMoviePlayer: Shutting down movie player
+[2017.05.05-02.03.40:259][195]LogExit: Preparing to exit.
+[2017.05.05-02.03.41:025][195]LogExit: Game engine shut down
+[2017.05.05-02.03.41:349][195]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.05-02.03.41:349][195]LogExit: Object subsystem successfully closed.
+[2017.05.05-02.03.41:369][195]LogD3D11RHI: Shutdown
+[2017.05.05-02.03.41:369][195]LogD3D11RHI: CleanupD3DDevice
+[2017.05.05-02.03.41:961][195]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (120)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module SequenceRecorder (119)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AutomationController (118)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AutomationWorker (117)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (113)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (112)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module Media (111)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (110)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module CharacterAI (109)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module SessionServices (108)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (107)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module Niagara (106)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module PortalServices (104)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module PortalRpc (103)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module MessagingRpc (102)
+[2017.05.05-02.03.41:981][195]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2017.05.05-02.03.42:204][195]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module OculusLibrary (95)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module OculusInput (94)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (91)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module HTML5Networking (89)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (85)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module UObjectPlugin (84)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (83)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module SourceControl (82)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (81)
+[2017.05.05-02.03.42:205][195]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2017.05.05-02.03.42:306][195]LogModuleManager: Shutting down and abandoning module TcpMessaging (79)
+[2017.05.05-02.03.42:406][195]LogModuleManager: Shutting down and abandoning module SubstanceCore (78)
+[2017.05.05-02.03.42:406][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2017.05.05-02.03.42:406][195]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2017.05.05-02.03.42:406][195]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2017.05.05-02.03.42:406][195]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module VREditor (70)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module Sequencer (64)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module MessageLog (62)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module Slate (57)
+[2017.05.05-02.03.42:407][195]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module Networking (50)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module Core (49)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2017.05.05-02.03.42:411][195]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2017.05.05-02.03.42:412][195]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2017.05.05-02.03.42:736][195]LogDerivedDataCache: Shutdown
+[2017.05.05-02.03.42:736][195]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2017.05.05-02.03.42:736][195]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2017.05.05-02.03.42:736][195]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2017.05.05-02.03.42:736][195]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.05-02.03.42:737][195]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.05-02.03.42:737][195]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.05-02.03.42:757][195]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.05-02.03.42:757][195]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.05-02.03.42:757][195]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.05-02.03.42:757][195]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.05-02.03.42:757][195]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.05-02.03.42:760][195]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.05-02.03.42:763][195]LogExit: Exiting.
+[2017.05.05-02.03.42:765][195]Log file closed, 05/05/17 03:03:42
